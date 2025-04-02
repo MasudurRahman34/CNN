@@ -1,0 +1,35 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+
+# Ignore large model files and dataset
+*.h5
+*.pb
+*.zip  # If you don’t want to track zipped datasets
+
+# Ignore uploaded images and generated files
+uploads/
+Brain Tumor MRI Image Classification/brain_tumor/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs and temp files
+logs/
+*.log
+*.tmp
